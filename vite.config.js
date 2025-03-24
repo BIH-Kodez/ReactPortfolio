@@ -5,7 +5,8 @@ import path from 'path'; // 👈 import Node's path module
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/ReactPortfolio/",
+  base: process.env.VITE_BASE_PATH || "/ReactPortfolio",
+
   plugins: [
     tailwindcss(),
     react()
