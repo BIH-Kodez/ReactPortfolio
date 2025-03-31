@@ -1,4 +1,3 @@
-// src/components/Projects.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -9,8 +8,8 @@ const projects = [
     I extracted GIS data from shapefiles and integrated it into a Google Cloud-hosted API. 
     This allowed for dynamic lookup and mapping of smaller parishes not indexed on Google Maps, improving community visibility and engagement while eliminating server-side dependencies.`,
     image: '/images/Findmyparish.png',
-    live: 'https://www.archstl.org/join-us/mass-times/?find=my-parish', // Replace with actual URL if available
-    github: '', // Leave empty or add link if repo exists
+    live: 'https://www.archstl.org/join-us/mass-times/?find=my-parish',
+    github: '',
   },
   {
     title: 'Cando – Property Investment Landing Page',
@@ -18,8 +17,17 @@ const projects = [
     The design focused on clean, modern UI and conversion-driven elements. 
     Built to be fast, accessible, and scalable for marketing teams to promote property investments to potential users.`,
     image: '/images/Realestatepic.png',
-    live: 'https://bih-kodez.github.io/real-estate-project/', // Replace with actual deployed link
-    github: 'https://github.com/your-cando-repo', // Replace if repo is public
+    live: 'https://bih-kodez.github.io/real-estate-project/',
+    github: 'https://github.com/your-cando-repo',
+  },
+  {
+    title: 'Clix Marketing Agency – Full Redesign',
+    description: `Redesigned and rebuilt a full website for a marketing agency to showcase how modern front-end technologies can drastically improve web performance, accessibility, and SEO. 
+    The project was created using React.js, Tailwind CSS, and Framer Motion, and achieved 2–3x better Lighthouse scores across mobile and desktop. 
+    Built and deployed within 48 hours to demonstrate custom theme capability, speed optimization, and design scalability.`,
+    image: '/images/ClixProject.png', // Placeholder — you’ll add this later
+    live: 'https://flix-marketing-agency.vercel.app/',
+    github: 'https://github.com/BIH-Kodez/Flix-Marketing-Agency',
   },
 ];
 
@@ -81,3 +89,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
